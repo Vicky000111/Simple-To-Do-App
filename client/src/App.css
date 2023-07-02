@@ -1,0 +1,24 @@
+.center-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  max-width: 60% !important; 
+  flex-wrap: wrap !important;
+}
+.login-text{
+  font-size: 36px !important;
+  font-weight: 600;
+  min-width: 100%;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.show{
+  display: block !important;
+}
+.hide{
+  display: none !important;
+}

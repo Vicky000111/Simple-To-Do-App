@@ -1,0 +1,32 @@
+# Ignore node_modules directories
+**/node_modules/
+
+# Ignore build output
+**/build/
+**/dist/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore logs
+*.log
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore backend dependencies and build artifacts
+/server/node_modules/
+/server/build/
+
+# Ignore frontend dependencies and build artifacts
+/client/node_modules/
+/client/build/
+
+# Ignore package-lock.json for the entire project
+package-lock.json
+
+# Ignore Yarn lock files for the entire project
+yarn.lock
